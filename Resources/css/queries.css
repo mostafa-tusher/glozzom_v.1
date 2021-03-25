@@ -1,0 +1,42 @@
+@media screen and (max-width:980px){
+    #getstarted{
+        background-position: center;
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width:560px){
+    #homeinfo img {
+        width: 100%;
+    }
+    .slick-prev::before{
+        color: whitesmoke;
+    }
+    .slick-next::before{
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width:490px){
+    .col-auto {
+        width: 100%;
+    } 
+    .mt-5 {
+        margin-top: 1.4rem !important;
+    }
+
+}
+
+@media screen and (max-width:375px){
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+    
+    .uk-h1, h1 {
+        font-size: 1.5rem;
+    }
+    .lead {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+}

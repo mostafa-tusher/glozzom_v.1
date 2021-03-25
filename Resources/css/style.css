@@ -1,0 +1,149 @@
+/*=============================
+Template Name: MDB Bootstrp 5
+Template URI: 
+Author: Kazi Golam Mostafa
+Author URI: 
+=============================*/
+
+/* Commont CSS start */
+html body{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Commont CSS end */
+
+/*Navbar Start*/
+.navbar{
+    background-color: rgba(0,0,0,.6);
+}
+.nav-link {
+    color: rgba(245, 245, 245, .5) !important;
+}
+.nav-link:hover{
+    color: white !important;
+    text-decoration: none;
+}
+/*Navbar end*/
+
+/*========= Home Page Start ==========*/
+
+/*Home page carousel section start*/
+.carousel-item{
+    height: 500px;
+}
+/*Home page carousel section end*/
+
+/*Get started section start*/
+#getstarted{
+    position: relative;
+    background-image: url(../../img/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+}
+
+.dark-overlay{
+    background-color: rgba(0,0,0,.6);
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/*Get started section end*/
+
+/*Home video section start*/
+#homevideo{
+    position: relative;
+    background-image: url(../../img/people.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+/*Home video section end*/
+
+/*Home Gallery section start*/
+#homegallery img{
+    min-height: 250px;
+}
+/*Home Gallery section end*/
+
+/*========= Home Page End ==========*/
+
+/*======= About Page Start ============*/
+
+/*About-header section start*/
+#about-header{
+    position: relative;
+    background-image: url(../../img/image1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+}
+/*About-header section end*/
+
+#homeinfo img{
+    width: 300px;
+    height: 300px;
+}
+#aboutinfo img{
+    width: 300px;
+    height: 300px;
+}
+/*Testimonial section start*/
+
+.slick-prev::before{
+    color: rgba(0,0,0,.6);
+}
+.slick-next::before{
+    color: rgba(0,0,0,.6);
+}
+
+/*Testimonial section end*/
+
+/*======= About Page End ============*/
+
+/*======= Services Page Start ============*/
+
+#service-header{
+    position: relative;
+    background-image: url(../../img/image3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+}
+
+/*======= Services Page End ============*/
+
+
+/*======= Blog Page Start ============*/
+
+
+/*======= Blog Page End ============*/
+
+
+
+/*======= Contact Page Start ============*/
+
+
+/*======= Contact Page End ============*/
